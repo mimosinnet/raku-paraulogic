@@ -12,7 +12,7 @@ my @lletres = $lletres.split('',:skip-empty);
 my $lletra_mig  = @lletres[*-1];
 
 # Character classes for regex: 
-my $regex_lletres    = '<[' ~ $lletres.substr(1..5) ~ ']>';
+my $regex_lletres    = '<[' ~ $lletres.substr(0..5) ~ ']>';
 my $regex_no_lletres = '<[\w] - [' ~ $lletres ~ ']>';
 
 # Get permutations of combinations of letters
