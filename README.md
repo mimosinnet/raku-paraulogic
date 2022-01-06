@@ -8,8 +8,8 @@ ParauLògic is a game created by [Rodamots](https://rodamots.cat/). In this game
 
   $ raku ParauLogic.raku
 
-  Escriu les lletres del paraulògic,
-  amb la lletra del mig al final: ortalpn
+  Escriu les lletres del paraulògic,\
+  amb la lletra del mig al final: *ortalpn*\
   arn aaron alan alana alapont alpont altona altoona altron      anatot  anoll anton antona aran arna ...
 
 
