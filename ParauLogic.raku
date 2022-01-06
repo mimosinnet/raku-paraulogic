@@ -30,7 +30,7 @@ for $file.IO.lines -> $line {
   next if     $word ~~ /\d/           or  $word ~~ / <$regex_no_lletres> /;
   # next unless word contains letter and word contains pattern
   next unless $word ~~ /$lletra_mig/  and $word ~~ /<$regex_lletres>/;
-  # letters in the word should belong to the lleters of the pattern
+  # letters in the word should belong to the leters of the pattern
   next unless so $word.split('',:skip-empty).sort.map({ $_ ∈ @lletres.unique.sort }).all;
 
   print @perm.map( -> $x { $word if $word ~~ /$x/ }).unique.Str ~ ' ';
